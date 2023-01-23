@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* border: 2px solid green; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.headingdiv{
+    /* border: 2px solid red; */
+    height: 12%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    background-color: #eef0f1;
+    box-shadow: 5px 0px 15px black;
+}
+.btn-div{
+    /* border: 2px solid red; */
+    height: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#output-div{
+    /* border: 2px solid red; */
+    height: 78%;
+    width: 100%;
+    /* padding: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eef0f1;
+    box-shadow: 0px 5px 25px black;
+
+}
+.collectDiv{
+    /* border: 2px solid red; */
+    height: 8.4%;
+    width: 90%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+
+}
+.collectDiv p{
+    /* padding: 1rem; */
+    /* border: 2px solid blue; */
+    height: 80%;
+    width: 20%;
+    text-align: center;
+}
+.percentagediv{
+    /* border: 2px solid blue; */
+    height: 80%;
+    width: 60%;
+}
+h4{
+    font-weight: 100;
+}
+button{
+    padding: 10px 50px;
+    background-color: orange;
+    border: none;
+}
+
+/* ******************************MEDIAQUREY************************************** */
+@media only screen and (max-width:520px){
+    /* #output-div{
+    border: 2px solid rgb(26, 255, 0);
+    } */
+    /* .collectDiv{
+    border: 2px solid blue;
+    } */
+    .percentagediv{
+    /* border: 2px solid red; */
+    height: 60%;
+    width: 50%;
+
+
+    }
+    .collectDiv p{
+        /* border:2px solid green; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: .8rem;
+        /* align-items: center; */
+    }
+    .btn-div{
+    /* border: 2px solid rgb(26, 255, 0); */
+    width: 60%;
+    }
+        button{
+            padding: 2px 4px;
+        }
+    }
+    /* @media only screen and (min-width:520px){
+        .btn-div{
+        border: 2px solid rgb(93, 0, 255);
+        }
+            button{
+                padding: 5px 5px;
+            }
+        } */
+@media only screen and (min-width:520px){
+.btn-div{
+/* border: 2px solid red; */
+width: 50%;
+}
+    button{
+        padding: 5px 5px;
+    }
+}
+@media only screen and (min-width:820px){
+    /* .btn-div{
+    border: 2px solid rgb(0, 225, 255);
+    } */
+        button{
+            padding: 10px 25px;
+        }
+    }
